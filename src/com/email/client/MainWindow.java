@@ -7,7 +7,6 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.time.temporal.IsoFields;
 import java.util.ArrayList;
 
 import javax.swing.BorderFactory;
@@ -244,10 +243,13 @@ public class MainWindow {
 
 		JLabel lblDeepakLohar = new JLabel("Deepak Lohar");
 		lblDeepakLohar.setFont(new Font("Elephant", Font.PLAIN, 17));
-		lblDeepakLohar.setBounds(668, 6, 139, 20);
+		lblDeepakLohar.setBounds(593, 11, 139, 20);
 		MainWin.getContentPane().add(lblDeepakLohar);
-		MainWin.setFocusTraversalPolicy(
-				new FocusTraversalOnArray(new Component[] { textFieldFrom, passwordField, textFieldTo }));
+		
+		JLabel lblQuickMail = new JLabel("deepak.lohar@outlook.com");
+		lblQuickMail.setBounds(593, 37, 186, 17);
+		MainWin.getContentPane().add(lblQuickMail);
+		MainWin.setFocusTraversalPolicy(new FocusTraversalOnArray(new Component[]{textFieldFrom, passwordField, textFieldTo, textFieldSubject, textAreaBody, btnAttachment, btnSend}));
 
 		if (!Validation.isInternetAvailable()) {
 			MyMessageBox.infoBox("Internet disconnected", "No internet conncection");
