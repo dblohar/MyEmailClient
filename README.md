@@ -11,4 +11,4 @@ As shown below.
 "MyAccount" > "Sign-in & security" > "Connected apps & sites" > "Allow less secure apps"
 
 ## Jar file is also included
-Check the jar file named: **MyMessanger.jar
+Check the jar file named: *MyMessanger.jar
