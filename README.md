@@ -1,9 +1,9 @@
 # MyEmailClient
 This is basic email client application.
 
-Code written in java.
+Code written in java. To understand basic of email client.
 
-It works only form GMAIL.
+It works only with GMAIL.
 
 To allow this application to send email from your gmail account.
 you need to make changes to your account setting.
